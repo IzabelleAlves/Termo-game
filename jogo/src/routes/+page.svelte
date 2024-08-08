@@ -1,14 +1,20 @@
 <script lang="ts">
     import "../styles/global.css"
 
-    let tituloDoJogo : string = "Encontre o Tesouro"
-  </script>
+    let tituloDoJogo : string = "TERMO"
+</script>
+
+<header class="header">
+    <div class="logoHeader">
+        <h1>TERMO</h1>
+    </div>
+</header>
 
 <div class="bloco">
     <figure>
         <img class="logo" src="\images\Logot.jpg" alt="Logo T">
     </figure>
     
-    <a class="menu" href="/jogar">Jogar</a>
-    <a class="menu" href="/sobre">Sobre</a>
+    <a class="menu" href="/jogar">Play</a>
+    <a class="menu" href="/sobre">About</a>
 </div>

@@ -2,10 +2,18 @@
     import "../../styles/global.css"
     import "../../styles/jogar.css"
 </script>
-  
-<h1>Movimente o personagem (P) até o tesouro (T)</h1>
 
-<table>
+<header class="header">
+    <div class="logoHeader">
+        <h1>TERMO</h1>
+    </div>
+    <nav class="sectionMenu">
+        <a class="menu" href="/">Home Page</a>
+        <a class="menu" href="/sobre">About</a>
+    </nav>
+</header>
+
+<table class="tabelaJogo">
     <tr>
         <td class="cell character">P</td>
         <td class="cell"> </td>
@@ -44,5 +52,3 @@
 </table>
 
 <br />
-
-<a class="menu" href="/">Voltar ao Menu</a>
