@@ -14,7 +14,12 @@
     <figure>
         <img class="logo" src="\images\Logot.jpg" alt="Logo T">
     </figure>
-    
-    <a class="menu" href="/jogar">Play</a>
-    <a class="menu" href="/sobre">About</a>
+    <div class="menuHomePage">
+        <a class="menu" href="/jogar">Play</a>
+        <a class="menu" href="/sobre">About</a>
+    </div>
+</div>
+
+<div class="rodape">
+    <p>Termo/TSI. Alguns Direitos Reservados</p>
 </div>

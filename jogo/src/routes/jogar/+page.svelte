@@ -51,4 +51,6 @@
     </tr>
 </table>
 
-<br />
+<div class="rodape">
+    <p>Termo/TSI. Todos os Direitos Reservados.</p>
+</div>

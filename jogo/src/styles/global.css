@@ -24,31 +24,40 @@ justify-items: center;
 font-family: verdana; 
 }
 
-/* .menu {
-	/* display: block;
-	font-size: 20px;
-	margin: auto;
-	margin-bottom: 5px;
-	border-style: solid;
-	border-width: 3px;
-	width: 20%;
-	padding: 5px;
-	background-color: lightgrey;
-	border: 3px solid black;
-	text-align: center;
-	text-decoration: none;
-	color: black;
-	padding: 5px 0px 5px 0px; 
-} */
-
-.menu:hover{
-	background-color: #aaa;
-}
-
 .menu:visited{
-	color: black;
+	color: white;
 }
 
+.sectionMenu .menu{
+	color: white;
+}
+
+.sectionMenu a { 
+	/* TEM Q POR UM EM BAIXO DO OTO */
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid #872d72; 
+	padding: 4px;
+	background: #872d72;
+  padding: 15px 15px;
+  font-size: 12.5px;
+  border-radius: 4px;
+}
+
+.menuHomePage a {
+	display: inline-block;
+	align-items: center;
+	text-decoration: none;
+	border: 1px solid #872d72; 
+	padding: 10px 15px;
+	background: #872d72;
+  font-size: 12.5px;
+  border-radius: 4px;
+}
+
+.menu {
+	background-color: #651142;
+}
 img.sobre {
 	max-width:25%;
 	max-height:25%;
@@ -69,6 +78,7 @@ img.logo {
 	grid-area: 1 / 1 / 3 / 2;
 	justify-self: right;
 	margin-right: 10px;
+	
 }
 
 .bloco > .menu {
@@ -103,10 +113,18 @@ img.logo {
 	margin-left: auto; 
 }
 
-.sectionMenu a { 
-	/* AINDA ARRUMAREI */
-	text-decoration: none;
-	border: 1px solid white; 
-	padding: 4px;
-	color: white;
+.rodape {
+  /* background: #a95486; */
+  background: #872d62;
+  width: 100%;
+	color: #651142;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+	position: relative;
+	position: absolute;
+  bottom: 0;
+  left: 0;
+	padding:6.5px;
+	font-size: 10px;
 }
