@@ -16,13 +16,13 @@ body {
 }
 
 .tituloJogo{
-color: purple;
-background-color: white; 
-	/* so um teste */
-font-weight: bold;
-justify-items: center;
-font-family: verdana; 
-}
+	color: purple;
+	background-color: white; 
+		/* so um teste */
+	font-weight: bold;
+	justify-items: center;
+	font-family: verdana; 
+	}
 
 .menu:visited{
 	color: white;
@@ -39,9 +39,9 @@ font-family: verdana;
 	border: 1px solid #872d72; 
 	padding: 4px;
 	background: #872d72;
-  padding: 15px 15px;
-  font-size: 12.5px;
-  border-radius: 4px;
+	padding: 15px 15px;
+	font-size: 12.5px;
+	border-radius: 4px;
 }
 
 .menuHomePage a {
@@ -51,8 +51,8 @@ font-family: verdana;
 	border: 1px solid #872d72; 
 	padding: 10px 15px;
 	background: #872d72;
-  font-size: 12.5px;
-  border-radius: 4px;
+	font-size: 12.5px;
+	border-radius: 4px;
 }
 
 .menu {
@@ -86,15 +86,15 @@ img.logo {
 }
 
 .header{
-		background-color: #651142;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-		text-align: center;
-    align-items: center;
-    color: white; 
-		margin-top: 0px;
-		position: relative;
+	background-color: #651142;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	color: white; 
+	margin-top: 0px;
+	position: relative;
 }
 
 .logoHeader {
@@ -115,16 +115,16 @@ img.logo {
 
 .rodape {
   /* background: #a95486; */
-  background: #872d62;
-  width: 100%;
+	background: #872d62;
+	width: 100%;
 	color: #651142;
-  text-align: center;
-  padding: 40px;
-  box-sizing: border-box;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
 	position: relative;
 	position: absolute;
-  bottom: 0;
-  left: 0;
+	bottom: 0;
+	left: 0;
 	padding:6.5px;
 	font-size: 10px;
 }
