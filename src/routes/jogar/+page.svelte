@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import "../../styles/global.css"
     import "../../styles/jogar.css"
 </script>
