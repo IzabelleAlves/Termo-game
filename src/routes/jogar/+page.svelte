@@ -4,10 +4,8 @@
 </script>
 
 <header class="header">
-    <div class="logoHeader">
-        <h1>TERMO</h1>
-    </div>
-    <nav class="sectionMenu">
+    <h1>TERMO</h1>
+    <nav class="navigationMenu">
         <a class="menu" href="/">Home Page</a>
         <a class="menu" href="/sobre">About</a>
     </nav>

@@ -3,12 +3,10 @@
 </script>
 
 <header class="header">
-  <div class="logoHeader">
-      <h1>TERMO</h1>
-  </div>
-  <nav class="sectionMenu">
-    <a class="menu" href="/jogar">Play</a>
-    <a class="menu" href="/">Home Page</a>
+  <h1>TERMO</h1>
+  <nav class="navigationMenu">
+      <a class="menu" href="/">Home Page</a>
+      <a class="menu" href="/sobre">About</a>
   </nav>
 </header>
 

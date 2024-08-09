@@ -1,0 +1,54 @@
+.header {
+    position: relative;
+    justify-content: end;
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.navigationMenu a { /* TEM Q POR UM EM BAIXO DO OTO */
+    text-decoration: none;
+    border: 1px solid #872d72; 
+    padding: 4px;
+    padding: 15px 15px;
+    font-size: 12.5px;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: var(--second-color);
+        transition: 1s;
+    }
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+    td.cell {
+        border-style: solid;
+        border-width: 2px;
+        border-color: var(--light-color);
+        text-align: center;
+        font-weight: bold;
+        vertical-align: center;
+        height: 50px;
+        width: 50px;
+    }
+
+    td.character {
+        background-color: lightgrey;
+        cursor: pointer;
+    }
+
+    td.treasure {
+        background-color: purple;
+        color: white;
+        cursor: pointer;
+        border-color: black;
+    }
+}

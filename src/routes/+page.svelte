@@ -1,8 +1,10 @@
 <script lang="ts">
     import "../styles/global.css"
 
-    let tituloDoJogo : string = "TERMO"
+    let tituloDoJogo: string = "TERMO"
 </script>
+
+<title>{tituloDoJogo}</title>
 
 <header class="header">
     <div class="logoHeader">
@@ -10,16 +12,16 @@
     </div>
 </header>
 
-<div class="bloco">
-    <figure>
-        <img class="logo" src="\images\Logot.jpg" alt="Logo T">
+<article class="block">
+    <figure class="logo">
+        <img src="\images\Logot.jpg" alt="Logo T">
     </figure>
     <div class="menuHomePage">
         <a class="menu" href="/jogar">Play</a>
         <a class="menu" href="/sobre">About</a>
     </div>
-</div>
+</article>
 
-<div class="rodape">
+<footer class="rodape">
     <p>Termo/TSI. Alguns Direitos Reservados</p>
-</div>
+</footer>
