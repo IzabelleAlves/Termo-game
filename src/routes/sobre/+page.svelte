@@ -1,7 +1,11 @@
-<script>
+<script lang="ts">
   import "../../styles/global.css"
   import Footer from "../components/footer.svelte";
+
+  let tituloDoJogo: string = "TERMO"
+
 </script>
+<title>{tituloDoJogo}</title>
 
 <header class="header">
   <h1>TERMO</h1>

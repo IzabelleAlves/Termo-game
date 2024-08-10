@@ -10,7 +10,7 @@
     }
 }
 
-.navigationMenu a { /* TEM Q POR UM EM BAIXO DO OTO */
+.navigationMenu a { 
     text-decoration: none;
     border: 1px solid #872d72; 
     padding: 12.5px;
@@ -23,10 +23,15 @@
     }
 }
 
-table {
+#game {
+    display: flex;
     flex: 1;
-    margin: 88px auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+table {
     td.cell {
         border-style: solid;
         border-width: 2px;
@@ -68,10 +73,6 @@ table {
 
 #keyboard {
     width: 600px;
-    align-self: center;
-    margin-top: 0px;
-    flex-direction: column;
-    align-items: center;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
@@ -81,6 +82,8 @@ table {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
+    
+    &:last-child { margin-bottom: 0; }
 }
 
 .key {
@@ -89,15 +92,14 @@ table {
     margin: 2px;
     color: white;
     background-color: var(--dark-color);
-    border: none;
-    border-radius: 4px;
     font-size: 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    border: none;
 }
 
 .key:hover {
     background-color: var(--second-color);
+    transition: .5s;
 }
 
 .special {
