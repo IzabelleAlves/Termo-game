@@ -2,6 +2,10 @@
 	--primary-color: #872d62;
 	--second-color: #a95486;
 	--light-color: #cb87af;
+	--dark-color: #651142;
+	--correct-letter: #459331;
+	--wrongPosition-letter: #c8cc65;
+	--empty-letter:  #a95486;
 }
 
 * {
@@ -21,7 +25,7 @@ body {
 
 .header{
 	height: 8vh;
-	padding: 10px;
+	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -71,9 +75,10 @@ body {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			width: 80%;
-			height: 80px;
+			width: 65%;
+			height: 65px;
 			padding: 10px 15px;
+			border-radius: 4px;
 			font-size: 1.8rem;
 
 			&:hover {
@@ -84,7 +89,7 @@ body {
 		}
 
 		a:last-child {
-			margin-top: 100px;
+			margin-top: 40px;
 		}
 	}
 } 
@@ -97,5 +102,4 @@ body {
 	text-align: center;
 	background: #872d62;
 	color: var(--light-color);
-	/* color: #651142; */
 }

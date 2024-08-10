@@ -24,5 +24,5 @@
 <a class="menu" href="/">Voltar ao Menu</a>
 
 <div class="rodape">
-  <p>Termo/TSI. Alguns Direitos Reservados</p>
+  <p>Termo/TSI. Todos os Direitos Reservados.</p>
 </div>

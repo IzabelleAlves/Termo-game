@@ -23,5 +23,5 @@
 </article>
 
 <footer class="rodape">
-    <p>Termo/TSI. Alguns Direitos Reservados</p>
+    <p>Termo/TSI. Todos os Direitos Reservados.</p>
 </footer>

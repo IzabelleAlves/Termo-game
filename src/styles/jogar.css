@@ -13,8 +13,7 @@
 .navigationMenu a { /* TEM Q POR UM EM BAIXO DO OTO */
     text-decoration: none;
     border: 1px solid #872d72; 
-    padding: 4px;
-    padding: 15px 15px;
+    padding: 12.5px;
     font-size: 12.5px;
     border-radius: 4px;
 
@@ -26,8 +25,8 @@
 
 table {
     flex: 1;
-    margin: 180px auto;
-    
+    margin: 80px auto;
+
     td.cell {
         border-style: solid;
         border-width: 2px;
@@ -39,15 +38,72 @@ table {
         width: 50px;
     }
 
-    td.character {
-        background-color: lightgrey;
-        cursor: pointer;
+    td {
+        font-size: 30px;
+        color: white;
     }
 
-    td.treasure {
+    td.characterEmpty {
+        background-color: var(--empty-letter);
+        border-color: var(--empty-letter);
+        cursor: pointer;
+    } 
+    
+    td.characterCorrect {
+        background: var(--correct-letter);
+        border-color: var(--correct-letter);
+    }
+    
+    td.characterWrongPosition {
+        background: var(--wrongPosition-letter);
+        border-color: var(--wrongPosition-letter);
+    }
+    /* td.treasure {
         background-color: purple;
         color: white;
         cursor: pointer;
         border-color: black;
-    }
+    } */
+}
+
+#keyboard {
+    width: 600px;
+    align-self: center;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    color: white;
+    background-color: var(--dark-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.key:hover {
+    background-color: var(--second-color);
+}
+
+.special {
+    width: 80px;
+}
+
+.key:active {
+    background-color: #888;
 }
