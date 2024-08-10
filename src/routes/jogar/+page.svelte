@@ -1,6 +1,7 @@
 <script lang="ts">
     import "../../styles/global.css"
     import "../../styles/jogar.css"
+	import Footer from "../components/footer.svelte";
 </script>
 
 <header class="header">
@@ -86,6 +87,4 @@
     </div>
 </div>
 
-<div class="rodape">
-    <p>Termo/TSI. Todos os Direitos Reservados.</p>
-</div>
+<Footer />

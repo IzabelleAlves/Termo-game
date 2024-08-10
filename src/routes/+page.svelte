@@ -1,5 +1,6 @@
 <script lang="ts">
     import "../styles/global.css"
+    import Footer from './components/footer.svelte'
 
     let tituloDoJogo: string = "TERMO"
 </script>
@@ -22,6 +23,4 @@
     </div>
 </article>
 
-<footer class="rodape">
-    <p>Termo/TSI. Todos os Direitos Reservados.</p>
-</footer>
+<Footer />

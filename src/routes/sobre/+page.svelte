@@ -1,5 +1,6 @@
 <script>
   import "../../styles/global.css"
+  import Footer from "../components/footer.svelte";
 </script>
 
 <header class="header">
@@ -23,6 +24,4 @@
 
 <a class="menu" href="/">Voltar ao Menu</a>
 
-<div class="rodape">
-  <p>Termo/TSI. Todos os Direitos Reservados.</p>
-</div>
+<Footer />
