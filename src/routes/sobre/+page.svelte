@@ -11,7 +11,7 @@
   <h1>TERMO</h1>
   <nav class="navigationMenu">
       <a class="menu" href="/">Home Page</a>
-      <a class="menu" href="/sobre">About</a>
+      <a class="menu" href="/jogar">Play</a>
   </nav>
 </header>
 
