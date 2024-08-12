@@ -76,9 +76,9 @@
 
 <table>
   <tr>
-    <th><img class="sobre" src="/images/powerRosa.png" alt="01" style="width: 30%; height: auto;"/></th>
-    <th><img class="sobre" src="/images/powerVermelho.png" alt="02" style="width: 30%; height: auto;"/></th>
-    <th><img class="sobre" src="/images/powerAmarelo.png" alt="03" style="width: 30%; height: auto;"/></th>
+    <th><img class="sobre" src="/images/Izabelle.png" alt="01" style="width: 30%; height: auto;"/></th>
+    <th><img class="sobre" src="/images/Rubens.png" alt="02" style="width: 30%; height: auto;"/></th>
+    <th><img class="sobre" src="/images/Keila.png" alt="03" style="width: 30%; height: auto;"/></th>
   </tr>
   <tr>
     <th><p>Izabele</p></th>
@@ -90,8 +90,8 @@
 
 <table>
   <tr>
-    <th><img class="sobre" src="/images/powerAzul.png" alt="04" style="width: 20%; height: auto;"/></th>
-    <th><img class="sobre" src="/images/powerPreto.png" alt="05" style="width: 20%; height: auto;"/></th>
+    <th><img class="sobre" src="/images/Dylan.png" alt="04" style="width: 20%; height: auto;"/></th>
+    <th><img class="sobre" src="/images/Maviael.png" alt="05" style="width: 20%; height: auto;"/></th>
   </tr>
   <tr>
     <th><p>Dylan Borges</p></th>

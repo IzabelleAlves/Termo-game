@@ -15,7 +15,7 @@
 
 <article class="block">
     <figure class="logo">
-        <img src="\images\Logot.jpg" alt="Logo T">
+        <img src="\images\Logo.png" alt="Logo T">
     </figure>
     <div class="menuHomePage">
         <a class="menu" href="/jogar">Play</a>
