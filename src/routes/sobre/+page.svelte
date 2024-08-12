@@ -15,12 +15,59 @@
   </nav>
 </header>
 
-<h1>About</h1>
+<br><br>
 
 <table>
   <tr>
     <th>
-      <img class="sobre" src="/images/logoIFPE.png" alt="logo IPFE"  style="width: 20%; height: auto;"/>
+      <h3>Como funciona:</h3>
+      <br><p>Descubra a palavra certa em 6 (seis) tentativas. Depois de cada 
+      <br>tentativa,
+      as peças mostram o quão perto você está da solução.</p>
+      <br>
+    <th>  
+  </tr>
+  <tr>
+      <th>
+        <img class="sobre" src="/images/Captura1.png" alt="t1"  style="width: 30%; height: auto;"/>
+        
+      </th> 
+  </tr>
+  <tr>
+    <th>
+      <br><p>A letra <img class="sobre" src="/images/Captura2.png" alt="t2"  style="width: 6%; height: auto;"/> faz parte da palavra e está na posição correta.</p>
+      <br><br>
+    <th>
+  </tr>
+  <tr>
+    <th>
+      <img class="sobre" src="/images/Captura3.png" alt="t3"  style="width: 30%; height: auto;"/>
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <br><p>A letra <img class="sobre" src="/images/Captura4.png" alt="t4"  style="width: 6%; height: auto;"/> faz parte da palavra, porém, em outra posição.</p>
+      <br><br>
+    </th>
+  <tr>
+  <tr>
+    <th>
+      <img class="sobre" src="/images/Captura5.png" alt="t5"  style="width: 30%; height: auto;"/>
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <br><br><p>Divirta-se!</p>
+    </th>
+  </tr>
+</table>
+
+<br><br><br><br>
+
+<table>
+  <tr>
+    <th>
+      <img class="sobre" src="/images/logoIFPE.png" alt="logo IPFE"  style="width: 15%; height: auto;"/>
     </th>
   </tr>
 </table>
@@ -55,6 +102,7 @@
 
 <br><br>
 
+<!--
 <p>
     Autor: Allan Diego Silva Lima
 </p>
@@ -64,4 +112,6 @@
 
 <a class="menu" href="/">Voltar ao Menu</a>
 
+-->
+<br><br><br><b></b>
 <Footer />
