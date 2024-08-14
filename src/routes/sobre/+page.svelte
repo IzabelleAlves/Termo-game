@@ -15,103 +15,56 @@
   </nav>
 </header>
 
-<br><br>
+<section class="game-instructions">
+  <h3>Como funciona:</h3>
+  <br>
+  <p>
+    Descubra a palavra certa em 6 (seis) tentativas. Depois de cada tentativa,
+    as peças mostram o quão perto você está da solução.
+  </p>
+  <img class="sobre" src="/images/letraCorreta.png" alt="Exemplo 1" />
 
-<table>
-  <tr>
-    <th>
-      <h3>Como funciona:</h3>
-      <br><p>Descubra a palavra certa em 6 (seis) tentativas. Depois de cada 
-      <br>tentativa,
-      as peças mostram o quão perto você está da solução.</p>
-      <br>
-    <th>  
-  </tr>
-  <tr>
-      <th>
-        <img class="sobre" src="/images/Captura1.png" alt="t1"  style="width: 30%; height: auto;"/>
-        
-      </th> 
-  </tr>
-  <tr>
-    <th>
-      <br><p>A letra <img class="sobre" src="/images/Captura2.png" alt="t2"  style="width: 6%; height: auto;"/> faz parte da palavra e está na posição correta.</p>
-      <br><br>
-    <th>
-  </tr>
-  <tr>
-    <th>
-      <img class="sobre" src="/images/Captura3.png" alt="t3"  style="width: 30%; height: auto;"/>
-    </th>
-  </tr>
-  <tr>
-    <th>
-      <br><p>A letra <img class="sobre" src="/images/Captura4.png" alt="t4"  style="width: 6%; height: auto;"/> faz parte da palavra, porém, em outra posição.</p>
-      <br><br>
-    </th>
-  <tr>
-  <tr>
-    <th>
-      <img class="sobre" src="/images/Captura5.png" alt="t5"  style="width: 30%; height: auto;"/>
-    </th>
-  </tr>
-  <tr>
-    <th>
-      <br><br><p>Divirta-se!</p>
-    </th>
-  </tr>
-</table>
+  <p> A letra <img class="sobre-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
 
-<br><br><br><br>
+  <img class="sobre" src="/images/LetraPosicaoErrada.png" alt="Exemplo 3" />
 
-<table>
-  <tr>
-    <th>
-      <img class="sobre" src="/images/logoIFPE.png" alt="logo IPFE"  style="width: 15%; height: auto;"/>
-    </th>
-  </tr>
-</table>
+  <p> A letra <img class="sobre-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz parte da palavra, porém, em outra posição. </p>
 
-<br>
+  <img class="sobre" src="/images/palavraCompleta.png" alt="Exemplo 5" />
+  <p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
+  <br>
+  <p>Divirta-se!</p>
+</section>
 
-<table>
-  <tr>
-    <th><img class="sobre" src="/images/Izabelle.png" alt="01" style="width: 30%; height: auto;"/></th>
-    <th><img class="sobre" src="/images/Rubens.png" alt="02" style="width: 30%; height: auto;"/></th>
-    <th><img class="sobre" src="/images/Keila.png" alt="03" style="width: 30%; height: auto;"/></th>
-  </tr>
-  <tr>
-    <th><p>Izabele</p></th>
-    <th><p>Rubens Lira</p></th>
-    <th><p>Keila Isabelle</p></th>
+<section class="developers">
+  <h3>Desenvolvedores:</h3>
+  <div class="developer-grid">
+    <div class="developer">
+      <img class="sobre" src="/images/Dylan.png" alt="Dylan Borges" />
+      <p>Dylan Borges</p>
+    </div>
+    <div class="developer">
+      <img class="sobre" src="/images/Izabelle.png" alt="Izabelle Alves" />
+      <p>Izabelle Alves</p>
+    </div>
+    <div class="developer">
+      <img class="sobre" src="/images/Keila.png" alt="Keila Isabelle" />
+      <p>Keila Isabelle</p>
+    </div>
+    <div class="developer">
+      <img class="sobre" src="/images/Maviael.png" alt="Maviael Melo" />
+      <p>Maviael Melo</p>
+    </div>
+    <div class="developer">
+      <img class="sobre" src="/images/Rubens.png" alt="Rubens Lira" />
+      <p>Rubens Lira</p>
+    </div>
+  </div>
+</section>
 
-  </tr>
-</table>
+<section class="institution">
+  <h3>Instituição</h3>
+  <img class="sobre" src="/images/logoIFPE.png" alt="Logo IFPE" />
+</section>
 
-<table>
-  <tr>
-    <th><img class="sobre" src="/images/Dylan.png" alt="04" style="width: 20%; height: auto;"/></th>
-    <th><img class="sobre" src="/images/Maviael.png" alt="05" style="width: 20%; height: auto;"/></th>
-  </tr>
-  <tr>
-    <th><p>Dylan Borges</p></th>
-    <th><p>Maviael Melo</p></th>
-
-  </tr>
-</table>
-
-<br><br>
-
-<!--
-<p>
-    Autor: Allan Diego Silva Lima
-</p>
-<p>
-  <a href="allan.lima@igarassu.ifpe.edu.br">allan.lima@igarassu.ifpe.edu.br</a>
-</p>
-
-<a class="menu" href="/">Voltar ao Menu</a>
-
--->
-<br><br><br><b></b>
 <Footer />

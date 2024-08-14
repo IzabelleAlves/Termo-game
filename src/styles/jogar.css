@@ -64,12 +64,6 @@ table {
         background: var(--wrongPosition-letter);
         border-color: var(--wrongPosition-letter);
     }
-    /* td.treasure {
-        background-color: purple;
-        color: white;
-        cursor: pointer;
-        border-color: black;
-    } */
 }
 
 #keyboard {

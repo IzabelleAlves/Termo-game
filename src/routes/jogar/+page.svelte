@@ -28,9 +28,9 @@
         <tr>
             <td class="cell characterEmpty">C</td>
             <td class="cell characterWrongPosition">O</td>
-            <td class="cell characterEmpty">L</td>
+            <td class="cell characterEmpty">U</td>
             <td class="cell characterEmpty">V</td>
-            <td class="cell characterWrongPosition">E</td>
+            <td class="cell characterEmpty">E</td>
         </tr>
         <tr>
             <td class="cell characterWrongPosition">G</td>
@@ -47,11 +47,11 @@
             <td class="cell characterCorrect">O</td>
         </tr>
         <tr>
-            <td class="cell"> </td>
-            <td class="cell"> </td>
-            <td class="cell"> </td>
-            <td class="cell"> </td>
-            <td class="cell"> </td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
         </tr>
         <tr>
             <td class="cell"> </td>
