@@ -6,7 +6,7 @@
   let tituloDoJogo: string = "TERMO"
 </script>
 
-<header class="header"> 
+<header> 
   <title>{tituloDoJogo}</title>
 </header>
 
@@ -17,6 +17,7 @@
     <a class="menu" href="/jogar">Play</a>
  </nav>
 </div>
+
 
 
 <section class="game-instructions">
