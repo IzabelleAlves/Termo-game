@@ -34,6 +34,11 @@
 }
 
 table {
+    td {
+        font-size: 30px;
+        color: white;
+    }
+
     td.cell {
         border-style: solid;
         border-width: 2px;
@@ -44,27 +49,24 @@ table {
         height: 50px;
         width: 50px;
     }
+}
 
-    td {
-        font-size: 30px;
-        color: white;
-    }
+.characterEmpty,
+.key.characterEmpty {
+    background-color: var(--empty-letter);
+    border-color: var(--empty-letter);
+} 
 
-    td.characterEmpty {
-        background-color: var(--empty-letter);
-        border-color: var(--empty-letter);
-        cursor: pointer;
-    } 
-    
-    td.characterCorrect {
-        background: var(--correct-letter);
-        border-color: var(--correct-letter);
-    }
-    
-    td.characterWrongPosition {
-        background: var(--wrongPosition-letter);
-        border-color: var(--wrongPosition-letter);
-    }
+.characterCorrect,
+.key.characterCorrect {
+    background: var(--correct-letter);
+    border-color: var(--correct-letter);
+}
+
+.characterWrongPosition,
+.key.characterWrongPositio {
+    background: var(--wrongPosition-letter);
+    border-color: var(--wrongPosition-letter);
 }
 
 #keyboard {

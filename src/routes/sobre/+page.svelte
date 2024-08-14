@@ -1,25 +1,23 @@
+
 <script lang="ts">
   import "../../styles/global.css"
   import Footer from "../components/footer.svelte";
 
   let tituloDoJogo: string = "TERMO"
-
 </script>
 
-
-<header> 
+<header class="header"> 
   <title>{tituloDoJogo}</title>
- 
-  
 </header>
 
 <div class="header">
-  <h1>TERMO</h1>
   <nav class="navigationMenu">
-      <a class="menu" href="/">Home Page</a>
-      <a class="menu" href="/jogar">Play</a>
-  </nav>
+    <h1 class="menu">TERMO</h1>
+    <a class="menu" href="/">Home Page</a>
+    <a class="menu" href="/jogar">Play</a>
+ </nav>
 </div>
+
 
 <section class="game-instructions">
   <div class="font1">
@@ -41,6 +39,7 @@
     <p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
     <br>
     <p>Divirta-se!</p>
+  
   </div>
   
 </section>
