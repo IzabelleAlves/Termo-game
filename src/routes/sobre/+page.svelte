@@ -5,6 +5,7 @@
   let tituloDoJogo: string = "TERMO"
 
 </script>
+
 <title>{tituloDoJogo}</title>
 
 <header class="header">
@@ -17,11 +18,12 @@
 
 <section class="game-instructions">
   <h3>Como funciona:</h3>
-  <br>
+
   <p>
     Descubra a palavra certa em 6 (seis) tentativas. Depois de cada tentativa,
     as peças mostram o quão perto você está da solução.
   </p>
+  
   <img class="sobre" src="/images/letraCorreta.png" alt="Exemplo 1" />
 
   <p> A letra <img class="sobre-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
@@ -31,8 +33,9 @@
   <p> A letra <img class="sobre-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz parte da palavra, porém, em outra posição. </p>
 
   <img class="sobre" src="/images/palavraCompleta.png" alt="Exemplo 5" />
+
   <p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
-  <br>
+  
   <p>Divirta-se!</p>
 </section>
 

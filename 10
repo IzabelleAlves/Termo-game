@@ -1,0 +1,92 @@
+[33mcommit bf20a951df3012e3314ffb0bb1e6f9fb4d557b23[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MaviMau <maviaelmelo330@gmail.com>
+Date:   Sun Aug 11 21:38:31 2024 -0300
+
+    Página do sobre - Adição das instruções do jogo.
+    
+    Falta alterar a fonte e sua cor.
+
+[33mcommit 603be98ab1fc61c3464f9bb3bb90baaf25e22ca3[m
+Author: MaviMau <maviaelmelo330@gmail.com>
+Date:   Sun Aug 11 19:15:05 2024 -0300
+
+    alterações na página do sobre.
+    
+    Foto fake dos integrantes para substituição posterior.
+
+[33mcommit f3b4cbb6823e89add09021e295de79a1ccf32ff3[m
+Author: MaviMau <maviaelmelo330@gmail.com>
+Date:   Sun Aug 11 13:07:15 2024 -0300
+
+    mudança no botão "About"
+    
+    Nome: Pay
+    link: /jogar
+
+[33mcommit db256f29e2065df1caf214a42330a60f7e3223bf[m
+Author: Rubens Lira <rubenslira371@gmail.com>
+Date:   Sat Aug 10 18:51:57 2024 -0300
+
+    Penas Alterações
+
+[33mcommit febf5dedab8962850cb5642e1afe337b82473d03[m
+Author: Izabelle Alves <izabelle.alvesbl@gmail.com>
+Date:   Sat Aug 10 15:57:14 2024 -0300
+
+    Footer changed
+
+[33mcommit 1f9466ec5e1f41f246bc42c5dac1ffedcf977600[m
+Author: Izabelle Alves <izabelle.alvesbl@gmail.com>
+Date:   Fri Aug 9 22:40:02 2024 -0300
+
+    Reade deleted
+
+[33mcommit 1c9a51073327dccdd36b8fe773abac375c0eb22d[m
+Author: Izabelle Alves <izabelle.alvesbl@gmail.com>
+Date:   Fri Aug 9 22:33:00 2024 -0300
+
+    Keyboard added. Other modifications made.
+
+[33mcommit bf1360de7abc80daecfa152af217585deae307b4[m
+Author: Rubens Lira <rubenslira371@gmail.com>
+Date:   Fri Aug 9 20:36:22 2024 -0300
+
+    Correção de Erros
+
+[33mcommit 6735469d42454090915d52e8808de037c70c4833[m
+Author: Rubens Lira de Oliveira <104081937+BinhoDaSilvaSauro@users.noreply.github.com>
+Date:   Fri Aug 9 19:50:36 2024 -0300
+
+    Update global.css
+    
+    Mudei o rodapé
+
+[33mcommit 60fb4561ec0cc7822ad1b852f76e5d9b919620db[m
+Author: Rubens Lira <rubenslira371@gmail.com>
+Date:   Fri Aug 9 18:08:17 2024 -0300
+
+    Mudanças no ccs
+
+[33mcommit 18bf8baa6bbf846da10e3328a4d54766011a6d76[m
+Author: Rubens Lira <rubenslira371@gmail.com>
+Date:   Thu Aug 8 21:59:03 2024 -0300
+
+    Teste
+
+[33mcommit 7e408dea7c41bff0ce0a8eb0b3319ba08964b8db[m
+Author: Izabelle Alves <izabelle.alvesbl@gmail.com>
+Date:   Thu Aug 8 21:34:27 2024 -0300
+
+    Rodapé adicionado. Menu inicial alterado para forma de botão.
+
+[33mcommit ee4bcc5b479e5feffa8b18619e33a4a543b6f344[m
+Author: Izabelle Alves <izabelle.alvesbl@gmail.com>
+Date:   Thu Aug 8 19:28:10 2024 -0300
+
+    Alterações gerais
+
+[33mcommit 93e263294c9c2cfb7eaa836e3317369f25e30173[m
+Author: Izabelle Alves <izabelle.alvesbl@gmail.com>
+Date:   Thu Aug 8 17:40:30 2024 -0300
+
+    First commit
