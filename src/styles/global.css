@@ -59,10 +59,8 @@ body {
 	img {
 		width: 300px;
 		height: 300px;
-		
 	}
 	
-
 	.menuHomePage {
 		display: flex;
 		width: 100%;
@@ -73,7 +71,7 @@ body {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			width: 65%;
+			width: 50%;
 			height: 65px;
 			padding: 10px 15px;
 			border-radius: 4px;
