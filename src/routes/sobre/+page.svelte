@@ -1,5 +1,6 @@
 <script lang="ts">
   import "../../styles/global.css"
+  import "../../styles/sobre.css"
   import Footer from "../components/footer.svelte";
 
   let tituloDoJogo: string = "TERMO"
