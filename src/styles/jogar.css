@@ -30,6 +30,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 20px;
 }
 
 table {
@@ -71,6 +72,8 @@ table {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .row {
