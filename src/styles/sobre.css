@@ -1,3 +1,25 @@
+:root {
+    --letter-height: 34px;
+}
+
+/* Estilo para WebKit */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--dark-color);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--light-color);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--second-color);
+  }  
+
 .game-instructions {
 	background-color: var(--light-color); 
 	border: 1px solid var(--light-color); 
@@ -19,6 +41,28 @@
 	p + p {
 		margin-top: 20px;
 	}
+
+    p:has(span) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.letter {
+    display: inline-flex;
+    height: var(--letter-height);
+    width: var(--letter-height);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    border: var(--dark-color) solid 1px;
+    background-color: var(--second-color);
+    font-weight: bold;
+}
+
+.letter.right {
+    background-color: var(--correct-letter);
 }
 
 .sobre {

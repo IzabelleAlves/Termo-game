@@ -25,7 +25,13 @@
     as peças mostram o quão perto você está da solução.
   </p>
   
-  <img class="sobre" src="/images/letraCorreta.png" alt="Exemplo 1" />
+  <p>
+    <span class="letter right">T</span>
+    <span class="letter">U</span>
+    <span class="letter">R</span>
+    <span class="letter">M</span>
+    <span class="letter">A</span>
+  </p>
 
   <p> A letra <img class="sobre-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
 
