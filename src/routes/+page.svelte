@@ -17,10 +17,10 @@
     <figure class="logo">
         <img src="\images\Logo.png" alt="Logo T">
     </figure>
-    <div class="menuHomePage">
+    <nav class="menuHomePage">
         <a class="menu" href="/jogar">Play</a>
         <a class="menu" href="/sobre">About</a>
-    </div>
+    </nav>
 </article>
 
 <Footer />

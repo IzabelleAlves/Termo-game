@@ -17,7 +17,7 @@
 </header>
 
 <main id="game">
-    <table class="tabelaJogo">
+    <table class="tableGame">
         <tr>
             <td class="cell characterWrongPosition">O</td>
             <td class="cell characterEmpty">D</td>

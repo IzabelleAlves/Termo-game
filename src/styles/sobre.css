@@ -5,24 +5,38 @@
 /* Estilo para WebKit */
 ::-webkit-scrollbar {
     width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--dark-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--light-color);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--second-color);
+}  
+
+  /* .instructions {
+	display: flex;
+
+	h3 {
+		color: white;
+
+	}
   }
-  
-  ::-webkit-scrollbar-track {
-    background: var(--dark-color);
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: var(--light-color);
-    border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--second-color);
-  }  
+
+  #checkbox:checked ~ .game-instructions {
+	display: block;
+  } */
 
 .game-instructions {
+	/* display: none; */
 	background-color: var(--light-color); 
-	border: 1px solid var(--light-color); 
+	border: 1px solid var(--dark-color); 
 	border-radius: 10px; 
 	padding: 20px; 
 	max-width: 600px; 
@@ -30,7 +44,7 @@
 	box-shadow: 0 2px 4px var(--dark-color); 
 	text-align: center;
 
-	h3 + p {
+	/* h3 + p {
 		margin-top: 20px;
 	}
 
@@ -44,11 +58,16 @@
 
     p:has(span) {
         display: flex;
+        align-items: center;
         justify-content: center;
     }
+
+    p > .alone {
+        margin: 0 4px;
+    } */
 }
 
-.letter {
+/* .letter {
     display: inline-flex;
     height: var(--letter-height);
     width: var(--letter-height);
@@ -63,21 +82,22 @@
 
 .letter.right {
     background-color: var(--correct-letter);
-}
+} */
 
-.sobre {
+.about {
 	max-width: 30%;
 	height: auto;
 	margin: 20px auto;
 }
 
-.sobre-icon {
+.about-icon {
 	width: 6%;
 	height: auto;
 	vertical-align: middle;
 }
 
 .developers {
+	color: white;
 	text-align: center;
 	margin: 40px 0;
 }
@@ -100,6 +120,7 @@
 }
 
 .institution {
+	color: white;
 	text-align: center;
 	margin-top: 40px;
 
@@ -109,7 +130,3 @@
 	}
 }
 
-.font1{
-    color: white;
-    font-family: arial; 
-}
