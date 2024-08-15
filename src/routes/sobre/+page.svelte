@@ -15,43 +15,30 @@
 		<a class="menu" href="/jogar">Play</a>
 	</nav>
 </header>
-<!-- <section class="instrutions"> -->
-<!-- <input type="checkbox" id="checkbox">
-	<label for="checkbox"><h2>Ver intruções</h2></label> -->
 <section class="game-instructions">
-	<h3>Como funciona:</h3>
-
-	<p>
-		Descubra a palavra certa em 6 (seis) tentativas. Depois de cada tentativa, as peças mostram o
-		quão perto você está da solução.
-	</p>
-
-	<p>
-		<span class="letter right">T</span>
-		<span class="letter">U</span>
-		<span class="letter">R</span>
-		<span class="letter">M</span>
-		<span class="letter">A</span>
-	</p>
-
-	<p>
-		A letra <span class="letter right alone">T</span> faz parte da palavra e está na posição correta.
-	</p>
-
-	<img class="about" src="/images/LetraPosicaoErrada.png" alt="Exemplo 3" />
-
-	<p>
-		A letra <img class="about-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz
-		parte da palavra, porém, em outra posição.
-	</p>
-
-	<img class="about" src="/images/palavraCompleta.png" alt="Exemplo 5" />
-
-	<p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
-
-	<p>Divirta-se!</p>
-</section>
-<!-- </section> -->
+	<div class="font1">
+	  <h3>Como funciona:</h3>
+	  <br>
+	  <p>
+		Descubra a palavra certa em 6 (seis) tentativas. Depois de cada tentativa,
+		as peças mostram o quão perto você está da solução.
+	  </p>
+	  <img class="sobre" src="/images/letraCorreta.png" alt="Exemplo 1" />
+	
+	  <p> A letra <img class="sobre-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
+	
+	  <img class="sobre" src="/images/LetraPosicaoErrada.png" alt="Exemplo 3" />
+	
+	  <p> A letra <img class="sobre-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz parte da palavra, porém, em outra posição. </p>
+	
+	  <img class="sobre" src="/images/palavraCompleta.png" alt="Exemplo 5" />
+	  <p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
+	  <br>
+	  <p>Divirta-se!</p>
+	
+	</div>
+	
+  </section>
 
 <section class="developers">
 	<h3>Desenvolvedores:</h3>
