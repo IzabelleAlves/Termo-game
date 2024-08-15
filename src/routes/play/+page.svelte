@@ -1,6 +1,6 @@
 <script lang="ts">
     import "../../styles/global.css"
-    import "../../styles/jogar.css"
+    import "../../styles/play.css"
 	import Footer from "../components/footer.svelte";
 
     let tituloDoJogo: string = "TERMO"
@@ -12,7 +12,7 @@
     <h1>TERMO</h1>
     <nav class="navigationMenu">
         <a class="menu" href="/">Home Page</a>
-        <a class="menu" href="/sobre">About</a>
+        <a class="menu" href="/about">About</a>
     </nav>
 </header>
 

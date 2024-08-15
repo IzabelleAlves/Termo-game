@@ -2,7 +2,7 @@
     --letter-height: 34px;
 }
 
-/* Estilo para WebKit */
+/* Estilo para scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
 }

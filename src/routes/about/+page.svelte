@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../../styles/global.css';
-	import '../../styles/sobre.css';
+	import '../../styles/about.css';
 	import Footer from '../components/footer.svelte';
 
 	let tituloDoJogo: string = 'TERMO';
@@ -12,7 +12,7 @@
 	<nav class="navigationMenu">
 		<h1 class="menu">TERMO</h1>
 		<a class="menu" href="/">Home Page</a>
-		<a class="menu" href="/jogar">Play</a>
+		<a class="menu" href="/play">Play</a>
 	</nav>
 </header>
 <section class="game-instructions">
@@ -23,15 +23,15 @@
 		Descubra a palavra certa em 6 (seis) tentativas. Depois de cada tentativa,
 		as peças mostram o quão perto você está da solução.
 	  </p>
-	  <img class="sobre" src="/images/letraCorreta.png" alt="Exemplo 1" />
+	  <img class="about" src="/images/letraCorreta.png" alt="Exemplo 1" />
 	
-	  <p> A letra <img class="sobre-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
+	  <p> A letra <img class="about-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
 	
-	  <img class="sobre" src="/images/LetraPosicaoErrada.png" alt="Exemplo 3" />
+	  <img class="about" src="/images/LetraPosicaoErrada.png" alt="Exemplo 3" />
 	
-	  <p> A letra <img class="sobre-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz parte da palavra, porém, em outra posição. </p>
+	  <p> A letra <img class="about-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz parte da palavra, porém, em outra posição. </p>
 	
-	  <img class="sobre" src="/images/palavraCompleta.png" alt="Exemplo 5" />
+	  <img class="about" src="/images/palavraCompleta.png" alt="Exemplo 5" />
 	  <p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
 	  <br>
 	  <p>Divirta-se!</p>
