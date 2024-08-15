@@ -17,31 +17,31 @@
 </header>
 <section class="game-instructions">
 	<div class="font1">
-	  <h3>Como funciona:</h3>
+	  <h3>How it works:</h3>
 	  <br>
 	  <p>
-		Descubra a palavra certa em 6 (seis) tentativas. Depois de cada tentativa,
-		as peças mostram o quão perto você está da solução.
+		Find the right word in 6 (six) tries. After each attempt,
+		The tiles show how close you are to the solution.
 	  </p>
-	  <img class="about" src="/images/letraCorreta.png" alt="Exemplo 1" />
+	  <img class="about" src="/images/letraCorreta.png" alt="Exemple 1" />
 	
-	  <p> A letra <img class="about-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> faz parte da palavra e está na posição correta. </p>
+	  <p> The letter <img class="about-icon" src="/images/letraCorretaUnica.png" alt="Exemplo 2" /> is part of the word and is in the correct position. </p>
 	
-	  <img class="about" src="/images/LetraPosicaoErrada.png" alt="Exemplo 3" />
+	  <img class="about" src="/images/LetraPosicaoErrada.png" alt="Exemple 3" />
 	
-	  <p> A letra <img class="about-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> faz parte da palavra, porém, em outra posição. </p>
+	  <p> The letter <img class="about-icon" src="/images/LetraPosicaoErradaUnica.png" alt="Exemplo 4" /> is part of the word, but, in other position. </p>
 	
-	  <img class="about" src="/images/palavraCompleta.png" alt="Exemplo 5" />
-	  <p>Se a letra não ficar verde ou amarela, significa que ela não faz parte da palavra.</p>
+	  <img class="about" src="/images/palavraCompleta.png" alt="Exemple 5" />
+	  <p>If the letter doesn't be green or yellow, it means that it doesn't be part of word.</p>
 	  <br>
-	  <p>Divirta-se!</p>
+	  <p>Have fun!</p>
 	
 	</div>
 	
   </section>
 
 <section class="developers">
-	<h3>Desenvolvedores:</h3>
+	<h3>Developers:</h3>
 	<div class="developer-grid">
 		<div class="developer">
 			<img class="about" src="/images/Dylan.png" alt="Dylan Borges" />
@@ -67,7 +67,7 @@
 </section>
 
 <section class="institution">
-	<h3>Instituição:</h3>
+	<h3>Institution:</h3>
 	<img class="about" src="/images/logoIFPE.png" alt="Logo IFPE" />
 </section>
 
