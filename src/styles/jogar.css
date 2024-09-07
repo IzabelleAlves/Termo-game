@@ -40,9 +40,7 @@ table {
     }
 
     td.cell {
-        border-style: solid;
-        border-width: 2px;
-        border-color: var(--light-color);
+        border-style: solid; 
         text-align: center;
         font-weight: bold;
         vertical-align: center;
