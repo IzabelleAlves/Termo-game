@@ -1,0 +1,109 @@
+:root {
+    --letter-height: 34px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--dark-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--light-color);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--second-color);
+} 
+
+.game-instructions {
+	background-color: var(--light-color); 
+	border: 1px solid var(--dark-color); 
+	border-radius: 10px; 
+	padding: 20px; 
+	max-width: 600px; 
+	margin: 40px auto;
+	box-shadow: 0 2px 4px var(--dark-color); 
+	text-align: center;
+}
+
+.about {
+	max-width: 30%;
+	height: auto;
+	margin: 20px auto;
+}
+
+.aboutUs {
+	max-width: 100%;
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
+
+.about-icon {
+	width: 6%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.developers {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.developer-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.developer {
+	text-align: center;
+	max-width: 200px;
+
+	img {
+		width: 150px; 
+		height: auto;
+	}
+}
+
+.institution {
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.institution .aboutIf {
+		max-width: 10%;
+		height: auto;
+		margin-bottom: 20px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.button .buttonUnique {
+	padding: 15px 15px;
+	font-size: 16px;
+	background-color: var(--dark-color); 
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	text-align: center;
+	width: 140px;
+}
+
+.button .buttonUnique:hover {
+	background-color: var(--second-color); 
+	transition: 1s;
+}

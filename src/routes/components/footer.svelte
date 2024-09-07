@@ -12,7 +12,6 @@
       border-top: 1px solid var(--second-color);
       color: var(--light-color);
   }
-
   .rodape p {
     margin-top: 5px;
   }

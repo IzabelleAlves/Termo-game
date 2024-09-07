@@ -13,9 +13,9 @@
 .navigationMenu a { 
     text-decoration: none;
     border: 1px solid #872d72; 
-    padding: 8px;
-    width: 95px;
-    font-size: 12.5px;
+    padding: 9px;
+    width: 120px;
+    font-size: 16px;
     border-radius: 4px;
 
     &:hover {
@@ -33,7 +33,7 @@
     margin-top: 20px;
 }
 
-table {
+.tableGame {
     td {
         font-size: 30px;
         color: white;
