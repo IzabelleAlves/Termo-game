@@ -67,24 +67,24 @@
     border-color: var(--wrongPosition-letter);
 }
 
-#keyboard {
+/* #keyboard {
     width: 600px;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
-.row {
+/* .row {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
     
     &:last-child { margin-bottom: 0; }
-}
+} */
 
-.key {
+/* .key {
     width: 40px;
     height: 40px;
     margin: 2px;
@@ -93,20 +93,20 @@
     font-size: 20px;
     cursor: pointer;
     border: none;
-}
+} */
 
-.key:hover {
+/* .key:hover {
     background-color: var(--second-color);
     transition: .5s;
-}
+} */
 
-.special {
+/* .special {
     width: 80px;
 }
 
 .key:active {
     background-color: #888;
-}
+} */
 
 .tabelaJogo {
     border-collapse: collapse;
@@ -136,5 +136,19 @@
 
 .cellInput:focus {
     background-color: var(--second-color);
-   
+}
+
+.congratsMessage {
+    background-color: var(--light-color); 
+    border: 1px solid var(--dark-color); 
+	border-radius: 10px; 
+	padding: 20px; 
+	max-width: 600px; 
+	margin: 40px auto;
+	box-shadow: 0 2px 4px var(--dark-color); 
+	text-align: center;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
