@@ -40,7 +40,7 @@
     }
 
     td.cell {
-        border-style: solid; 
+        /* border-style: solid;   */
         text-align: center;
         font-weight: bold;
         vertical-align: center;
@@ -109,7 +109,7 @@
 } */
 
 .tabelaJogo {
-    border-collapse: collapse;
+    border-collapse: collapse; 
     width: 100%;
 }
 
@@ -151,4 +151,21 @@
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+}
+
+.endGame {
+    
+        background-color: var(--light-color); 
+        border: 1px solid var(--dark-color); 
+        border-radius: 10px; 
+        padding: 20px; 
+        max-width: 600px; 
+        margin: 40px auto;
+        box-shadow: 0 2px 4px var(--dark-color); 
+        text-align: center;
+        color: black;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+    
 }

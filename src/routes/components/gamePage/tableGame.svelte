@@ -13,10 +13,12 @@
 		.fill([])
 		.map(() => Array(5).fill({ letter: '', class: '' }));
 	let wordGuessed = false; // Flag para verificar se a palavra foi acertada
+	let gameOver = false;
 
 	// Função para verificar a palavra e atualizar o estado
 	function checkWord() {
 		if (inputs.every((input) => input.length > 0)) {
+			
 			const result: { letter: string; class: string }[] = inputs.map((input, index) => {
 				if (input === nome[index]) {
 					return { letter: input, class: 'characterCorrect' };
@@ -27,11 +29,18 @@
 				}
 			});
 
+
 			// Adiciona a linha de resultados no início da lista
 
 			rows[attemptCount] = result;
 			attemptCount++;
 			wordGuessed = inputs.every((input, index) => input === nome[index]); // Verifica se a palavra foi acertada
+
+			if (!wordGuessed && attemptCount >= maxAttempts) {
+				gameOver = true;
+			}
+
+
 
 			// Limpa os inputs para a próxima linha
 			inputs = Array(5).fill('');
@@ -92,3 +101,6 @@
 {#if wordGuessed}
 	<p class="congratsMessage">Parabéns, você acertou a palavra em {attemptCount} tentativa(s)!</p>
 {/if}
+{#if gameOver}
+	<p class="endGame">Que pena, você perdeu! A palavra era: {nome.join('')}</p>
+{/if} 
