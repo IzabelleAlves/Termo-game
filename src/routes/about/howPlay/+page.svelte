@@ -1,7 +1,7 @@
 <script lang="ts">
-	import '../../styles/global.css';
-	import '../../styles/about.css';
-	import Footer from '../components/footer.svelte';
+	// import '../../styles/global.css';
+	import '../../../styles/about.css';
+	import Footer from '../../components/footer.svelte';
 
 	let tituloDoJogo: string = 'TERMO';
 </script>
@@ -49,7 +49,6 @@
 </section>
 
 <div class="button">
-	<a href="/about/aboutUs" class="buttonUnique">Developers</a>
-	<a href="/" class="buttonUnique">Back to home page</a>
+	<a class="buttonUnique" href="/play">Back to play</a>
 </div>
 <Footer />

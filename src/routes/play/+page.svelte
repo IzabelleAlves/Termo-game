@@ -2,7 +2,6 @@
 	import '../../styles/global.css';
 	import '../../styles/play.css';
 	import Footer from '../components/footer.svelte';
-	import Keyboard from '../components/gamePage/keyboard.svelte';
 	import TableGame from '../components/gamePage/tableGame.svelte';
 
 	let tituloDoJogo: string = 'TERMO';
@@ -20,7 +19,9 @@
 
 <main id="game">
 	<TableGame />
-	<!-- <Keyboard /> -->
 </main>
 
+<div class="button">
+	<a class="buttonUnique" href="/about/howPlay">How to play</a>
+</div>
 <Footer />

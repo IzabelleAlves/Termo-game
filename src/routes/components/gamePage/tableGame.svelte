@@ -18,7 +18,6 @@
 	// Função para verificar a palavra e atualizar o estado
 	function checkWord() {
 		if (inputs.every((input) => input.length > 0)) {
-			
 			const result: { letter: string; class: string }[] = inputs.map((input, index) => {
 				if (input === nome[index]) {
 					return { letter: input, class: 'characterCorrect' };
@@ -29,7 +28,6 @@
 				}
 			});
 
-
 			// Adiciona a linha de resultados no início da lista
 
 			rows[attemptCount] = result;
@@ -39,8 +37,6 @@
 			if (!wordGuessed && attemptCount >= maxAttempts) {
 				gameOver = true;
 			}
-
-
 
 			// Limpa os inputs para a próxima linha
 			inputs = Array(5).fill('');
@@ -71,7 +67,16 @@
 </script>
 
 <table class="tableGame">
-	<!-- Linha de inputs para a nova tentativa (no topo) -->
+	<!-- Linhas de resultados -->
+	{#each rows as row}
+		<tr>
+			{#each row as cell}
+				<td class="cell {cell.class}">
+					{cell.letter}
+				</td>
+			{/each}
+		</tr>
+	{/each}
 	<tr>
 		{#each inputs as input, index}
 			<td class="cell">
@@ -86,21 +91,12 @@
 			</td>
 		{/each}
 	</tr>
-	<!-- Linhas de resultados -->
-	{#each rows as row}
-		<tr>
-			{#each row as cell}
-				<td class="cell {cell.class}">
-					{cell.letter}
-				</td>
-			{/each}
-		</tr>
-	{/each}
 </table>
 
 {#if wordGuessed}
 	<p class="congratsMessage">Parabéns, você acertou a palavra em {attemptCount} tentativa(s)!</p>
 {/if}
+
 {#if gameOver}
 	<p class="endGame">Que pena, você perdeu! A palavra era: {nome.join('')}</p>
-{/if} 
+{/if}
