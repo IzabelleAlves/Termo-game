@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
 :root {
 	--primary-color: #872d62;
 	--second-color: #a95486;
@@ -5,15 +7,14 @@
 	--dark-color: #651142;
 	--right: #459331;
 	--wrong: #c8cc65;
-	--empty:  var(--second-color);
-	--row-hover:  hsl(325, 60%, 50%);
+	--empty: var(--second-color);
+	--row-hover: hsl(325, 60%, 50%);
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -21,23 +22,25 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	background-color: var(--primary-color);
+	font-family: 'Baloo 2', sans-serif;
+	font-weight: 700;
 }
 
-.header{
+.header {
 	height: 8vh;
 	display: grid;
 	place-items: center;
 	grid-template-columns: repeat(3, 1fr);
-	color: white; 
+	color: white;
 	background-color: #651142;
 	align-content: center;
 
 	h1 {
-		display: flex; 
+		display: flex;
 		align-items: center;
 		grid-column: 2;
 		text-align: center;
-		font-size: 1.5rem; 
+		font-size: 1.5rem;
 	}
 
 	.navigationMenu {
@@ -45,7 +48,7 @@ body {
 		justify-content: space-evenly;
 		gap: 10px;
 	}
-}	
+}
 
 a.menu {
 	display: inline-block;
@@ -75,7 +78,7 @@ a.menu {
 		width: 300px;
 		height: 300px;
 	}
-	
+
 	.menuHomePage {
 		display: flex;
 		width: 100%;
@@ -92,7 +95,7 @@ a.menu {
 			padding: 10px 15px;
 			border-radius: 4px;
 			font-size: 1.8rem;
-			border-radius: 1rem;		
+			border-radius: 1rem;
 
 			&:hover {
 				border-color: var(--light-color);
@@ -104,4 +107,4 @@ a.menu {
 			margin-top: 40px;
 		}
 	}
-} 
+}
