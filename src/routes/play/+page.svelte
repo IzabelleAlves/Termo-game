@@ -7,8 +7,8 @@
 	let tituloDoJogo: string = 'TERMO';
 	let modalClose: boolean = false
 
-	function closeModal() {
-		modalClose = true
+	function toggleModal() {
+		modalClose = !modalClose
 	}
 </script>
 
@@ -25,11 +25,10 @@
 
 <main id="game">
 	<TableGame />
+	<button type="button" class="rules" on:click={toggleModal}>Show Instructions</button>
 </main>
 
-<div class="button">
-	<a class="buttonUnique" href="/about/howPlay">How to play</a>
-</div>
+
 <Footer />
 
 <section class:close={modalClose} class="bg-intructions">
@@ -75,6 +74,6 @@
 		<p>If the letter doesn't be green or yellow, it means that it doesn't be part of word.</p>
 	
 		<p>Have fun!</p>
-		<button type="button" class="x_icon" on:click={closeModal}>x</button>
+		<button type="button" class="x_icon" on:click={toggleModal}>x</button>
 	</section>
 </section>
