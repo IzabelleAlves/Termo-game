@@ -77,20 +77,6 @@
 			{/each}
 		</tr>
 	{/each}
-	<tr>
-		{#each inputs as input, index}
-			<td class="cell">
-				<input
-					type="text"
-					maxlength="1"
-					class="cellInput"
-					bind:value={inputs[index]}
-					on:input={(event) => handleInput(event, index)}
-					disabled={isAttemptLimitReached()}
-				/>
-			</td>
-		{/each}
-	</tr>
 </table>
 
 {#if wordGuessed}

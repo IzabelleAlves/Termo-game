@@ -6,7 +6,7 @@
 	--dark-color: #651142;
 	--right: #459331;
 	--wrong: #c8cc65;
-	--empty: var(--second-color);
+	--empty: rgb(169, 84, 134);
 	--row-hover: hsl(325, 60%, 50%);
 }
 
@@ -60,22 +60,22 @@
 	}
 }
 
-.characterEmpty,
-.key.characterEmpty {
-	background-color: var(--empty-letter);
-	border-color: var(--empty-letter);
+.empty,
+.key.empty {
+	background-color: var(--empty);
+	border-color: var(--empty);
 }
 
-.characterCorrect,
-.key.characterCorrect {
-	background: var(--correct-letter);
-	border-color: var(--correct-letter);
+.right,
+.key.right {
+	background: var(--right);
+	border-color: var(--right);
 }
 
-.characterWrongPosition,
-.key.characterWrongPositio {
-	background: var(--wrongPosition-letter);
-	border-color: var(--wrongPosition-letter);
+.wrong,
+.key.wrong {
+	background: var(--wrong);
+	border-color: var(--wrong);
 }
 
 .tabelaJogo {
@@ -133,76 +133,7 @@
 	text-align: center;
 }
 
-/* Intruções */
-
-.bg-intructions {
-	position: absolute;
-	top: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100dvw;
-	height: 100dvh;
-	overflow: hidden;
-	background-color: rgba(var(--second-color-rgb), 0.6);
-	transition: top 0.8s ease-in-out;
-	overflow: hidden;
-}
-
-.close {
-	top: -100%;
-	transition: top 0.8s ease-in-out;
-}
-
-.game-instructions {
-	position: relative;
-	background-color: var(--light-color);
-	border: 1px solid var(--dark-color);
-	border-radius: 10px;
-	padding: 20px;
-	width: 600px;
-	box-shadow: 0 2px 4px var(--dark-color);
-	text-align: center;
-	color: white;
-
-	h3 {
-		margin-bottom: 1rem;
-	}
-
-	p {
-		align-content: center;
-		margin: 16px;
-	}
-
-	p:last-child {
-		margin-bottom: 0;
-	}
-}
-
-.letter {
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	align-content: center;
-	font-size: 2rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	border: 2px solid var(--dark-color);
-	background-color: var(--second-color);
-}
-
-.right {
-	background-color: var(--right);
-}
-
-.wrong {
-	background-color: var(--wrong);
-}
-
-.alone {
-	margin: 0 4px;
-}
-
+/* Botão que abre as instruções */
 .rules {
 	display: inline-block;
 	height: 50px;
@@ -218,22 +149,4 @@
 	&:hover {
 		border: 2px solid var(--light-color);
 	}
-}
-
-.x_icon {
-	position: absolute;
-	top: 0%;
-	right: 0%;
-	transform: translate(50%, -50%);
-	display: block;
-	height: 40px;
-	width: 40px;
-	align-content: center;
-	background-color: var(--dark-color);
-	border-radius: 50%;
-	cursor: pointer;
-	text-transform: uppercase;
-	font-weight: bold;
-	border: 2px solid #300820;
-	color: white;
 }
