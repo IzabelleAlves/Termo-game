@@ -24,6 +24,10 @@ body {
 	background-color: var(--primary-color);
 	font-family: 'Baloo 2', sans-serif;
 	font-weight: 700;
+	
+	* {
+		font-family: 'Baloo 2', sans-serif;
+	}
 }
 
 .header {
@@ -40,7 +44,7 @@ body {
 		align-items: center;
 		grid-column: 2;
 		text-align: center;
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 	}
 
 	.navigationMenu {

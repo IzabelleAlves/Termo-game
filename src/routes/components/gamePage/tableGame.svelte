@@ -20,11 +20,11 @@
 		if (inputs.every((input) => input.length > 0)) {
 			const result: { letter: string; class: string }[] = inputs.map((input, index) => {
 				if (input === nome[index]) {
-					return { letter: input, class: 'characterCorrect' };
+					return { letter: input, class: 'right' };
 				} else if (nome.includes(input)) {
-					return { letter: input, class: 'characterWrongPosition' };
+					return { letter: input, class: 'wrong' };
 				} else {
-					return { letter: input, class: 'characterEmpty' };
+					return { letter: input, class: 'empty' };
 				}
 			});
 

@@ -10,6 +10,10 @@
 	function toggleModal() {
 		modalClose = !modalClose
 	}
+
+	function reloadPage() {
+		window.location.reload()
+	}
 </script>
 
 <title>{tituloDoJogo}</title>
@@ -18,7 +22,7 @@
 	<h1>TERMO</h1>
 	<nav class="navigationMenu">
 		<a class="menu" href="/">Home Page</a>
-		<a class="menu" href="/play">Play</a>
+		<a class="menu" href="/play" on:click={reloadPage}>Play</a>
 		<a class="menu" href="/about">About</a>
 	</nav>
 </header>

@@ -40,6 +40,9 @@
 }
 
 .tableGame {
+    border-collapse: separate;
+    border-spacing: 4px;
+
 	td {
 		font-size: 30px;
 		color: white;
@@ -50,8 +53,10 @@
 		text-align: center;
 		font-weight: bold;
 		vertical-align: center;
-		height: 50px;
-		width: 50px;
+		height: 60px;
+		width: 60px;
+		border: 1px solid white;
+		text-align: center;
 	}
 }
 
@@ -78,13 +83,8 @@
 	width: 100%;
 }
 
-.cell {
-	border: 1px solid white;
-	text-align: center;
-	padding: 5px;
-}
-
 .cellInput {
+	display: block;
 	background-color: transparent;
 	width: 100%;
 	height: 100%;
@@ -96,10 +96,11 @@
 	outline: none;
 	color: white;
 	text-transform: uppercase;
+    background-color: var(--second-color);
 }
 
 .cellInput:focus {
-	background-color: var(--second-color);
+    border-bottom: 4px solid white;
 }
 
 .congratsMessage {
@@ -211,6 +212,8 @@
 	border-radius: 1rem;
 	color: white;
 	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2rem;
 
 	&:hover {
 		border: 2px solid var(--light-color);
