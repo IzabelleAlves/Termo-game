@@ -76,47 +76,6 @@
 	border-color: var(--wrongPosition-letter);
 }
 
-/* #keyboard {
-    width: 600px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-
-/* .row {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-    
-    &:last-child { margin-bottom: 0; }
-} */
-
-/* .key {
-    width: 40px;
-    height: 40px;
-    margin: 2px;
-    color: white;
-    background-color: var(--dark-color);
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-} */
-
-/* .key:hover {
-    background-color: var(--second-color);
-    transition: .5s;
-} */
-
-/* .special {
-    width: 80px;
-}
-
-.key:active {
-    background-color: #888;
-} */
-
 .tabelaJogo {
 	border-collapse: collapse;
 	width: 100%;
