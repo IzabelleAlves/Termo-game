@@ -234,5 +234,6 @@
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;
+	border: 2px solid #300820;
 	color: white;
 }

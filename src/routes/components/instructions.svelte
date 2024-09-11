@@ -1,9 +1,6 @@
 <script lang="ts">
-	let modalClose: boolean = false;
-
-	function toggleModal() {
-		modalClose = !modalClose;
-	}
+	export let modalClose: boolean = false;
+	export let toggleModal: () => void;
 </script>
 
 <section class:close={modalClose} class="bg-intructions">
