@@ -19,15 +19,9 @@
 	background: var(--second-color);
 } 
 
-.game-instructions {
-	background-color: var(--light-color); 
-	border: 1px solid var(--dark-color); 
-	border-radius: 10px; 
-	padding: 20px; 
-	max-width: 600px; 
-	margin: 40px auto;
-	box-shadow: 0 2px 4px var(--dark-color); 
-	text-align: center;
+main {
+	flex: 1;
+	align-content: center;
 }
 
 .about {
